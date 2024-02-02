@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class subsub {
+    public static void main(String args[]){
+        String sentence="My name is Tony";
+    
+        String name=sentence.substring(8 ,sentence.length());
+        System.out.println(name);
+    }
+    
+}
